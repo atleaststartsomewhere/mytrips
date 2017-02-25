@@ -70,6 +70,10 @@ class ComposerStaticInit1fc98e7d271b1f349ef484010e4b5a38
             'League\\Flysystem\\' => 17,
             'Laravel\\Tinker\\' => 15,
         ),
+        'J' => 
+        array (
+            'Junaidnasir\\Larainvite\\' => 23,
+        ),
         'I' => 
         array (
             'Illuminate\\' => 11,
@@ -198,6 +202,10 @@ class ComposerStaticInit1fc98e7d271b1f349ef484010e4b5a38
         array (
             0 => __DIR__ . '/..' . '/laravel/tinker/src',
         ),
+        'Junaidnasir\\Larainvite\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/junaidnasir/larainvite/src',
+        ),
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
@@ -279,6 +287,7 @@ class ComposerStaticInit1fc98e7d271b1f349ef484010e4b5a38
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
@@ -1510,6 +1519,13 @@ class ComposerStaticInit1fc98e7d271b1f349ef484010e4b5a38
         'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
+        'Junaidnasir\\Larainvite\\Facades\\Invite' => __DIR__ . '/..' . '/junaidnasir/larainvite/src/Facades/Invite.php',
+        'Junaidnasir\\Larainvite\\InvitationInterface' => __DIR__ . '/..' . '/junaidnasir/larainvite/src/InvitationInterface.php',
+        'Junaidnasir\\Larainvite\\InviteTrait' => __DIR__ . '/..' . '/junaidnasir/larainvite/src/InviteTrait.php',
+        'Junaidnasir\\Larainvite\\LaraInvite' => __DIR__ . '/..' . '/junaidnasir/larainvite/src/LaraInvite.php',
+        'Junaidnasir\\Larainvite\\LaraInviteServiceProvider' => __DIR__ . '/..' . '/junaidnasir/larainvite/src/LaraInviteServiceProvider.php',
+        'Junaidnasir\\Larainvite\\Models\\LaraInviteModel' => __DIR__ . '/..' . '/junaidnasir/larainvite/src/Models/LaraInviteModel.php',
+        'Junaidnasir\\Larainvite\\UserInvitation' => __DIR__ . '/..' . '/junaidnasir/larainvite/src/UserInvitation.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
         'Laravel\\Tinker\\TinkerServiceProvider' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerServiceProvider.php',
